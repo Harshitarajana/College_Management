@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>VIIT-Duvvada</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  
+  <link href="assets/img/logo1.jpeg" rel="icon">
+  <link href="assets/img/logo1.jpeg" rel="apple-touch-icon">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  
+  <link href="assets/css/variables.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <script>
+    function fun(){
+      window.location='./applyforMQ.php';
+    }
+  </script>
+
+<body>
+
+  
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1>Vignan's Institute Of Information Technology</h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+         
+          <!-- <li><a href="index.html">Home</a></li> -->
+          <li class="dropdown"><a href=""><span>Login</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="./login.php">Student Login</a></li>
+              <li><a href="./facultylogin.php">Faculty Login</a></li>
+              <li><a href="./adminlogin.php">Admin Login</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href=""><span>Registration</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="./registration.php">Student Registration</a></li>
+              <li><a href="./facultyregistration.php">Faculty Registration</a></li>
+              <li><a href="./adminRegistration.php">Admin Registration</a></li>
+              <!-- <li><a href="./regisMQ.php" >Apply here for MQ</a></li> -->
+            </ul>
+          </li>
+          <li><a href="regisMQ.php">Apply here</a></li>
+
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="position-relative">
+        <a href="#" class="mx-2"><span class="bi-facebook"></span></a>
+        <a href="#" class="mx-2"><span class="bi-twitter"></span></a>
+        <a href="#" class="mx-2"><span class="bi-instagram"></span></a>
+
+        <a href="#" class="mx-2 js-search-open"><span class="bi-search"></span></a>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+
+        
+        <div class="search-form-wrap js-search-form-wrap">
+          <form action="search-result.html" class="search-form">
+            <span class="icon bi-search"></span>
+            <input type="text" placeholder="Search" class="form-control">
+            <button class="btn js-search-close"><span class="bi-x"></span></button>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main id="main">
+
+    
+    <section id="hero-slider" class="hero-slider">
+      <div class="container-md" data-aos="fade-in">
+        <div class="row">
+          <div class="col-12">
+            <div class="swiper sliderFeaturedPosts">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a ="single-post.html" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/slide1.jpg');">
+                    <div class="img-bg-inner">
+                      <h2>Master of Educational Institutes</h2>
+                      <p><b>Cherish your engineering life and career at Vignan's Institute Of Information Technology,Duvvada</b></p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                 <a ="single-post.html" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/i1.jpeg');">
+                    <div class="img-bg-inner">
+                      <h2><ul><li>Innovate</li>
+                                     <li>Inspire</li>
+                                     <li>Build</li>
+                                     <li>Deploy</li></h2>
+                      <p><b>The main motive is to provide students with a platform to solve some of the pressing problems we face in our daily lives and thus include a culture of product innovation and a mindset of problemsolving.</b></p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a ="single-post.html" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/b.jpg');">
+                    <div class="img-bg-inner">
+                      <h2>Clubs</h2>
+                      <p><b>The institute provides its scope and facilities for different clubs like literacy,cultural,coding,self development and fine arts.These clubs offer a platform for students to exhibit their innate and latent talents in the areas of their intrests.</b></p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a ="single-post.html" class="img-bg d-flex align-items-end" style="background-image: url('assets/img/s1.jpg');">
+                    <div class="img-bg-inner">
+                      <h2>Sports & Culturals</h2>
+                      <p><b>It facilates the students to participate in the wide spectrum of activities conducting intramural rounds keeping the students ready to participate in all the tournaments conducted by state or nation wide.</b></p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="custom-swiper-button-next">
+                <span class="bi-chevron-right"></span>
+              </div>
+              <div class="custom-swiper-button-prev">
+                <span class="bi-chevron-left"></span>
+              </div>
+
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Hero Slider Section -->
+
+    <!-- ======= Post Grid Section ======= -->
+    <section id="posts" class="posts">
+      <div class="container" data-aos="fade-up">
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <div class="post-entry-1 lg">
+              <a ="single-post.html"><img src="assets/img/r.jpeg" alt="" class="img-fluid"></a>
+              <h2><a ="single-post.html">CHARMAN'S MESSAGE</a></h2>
+              <p class="mb-4 d-block">Well Thought-out Reforms In Technical Education Is The Need Of The Hour" We, in India today, are living in a transitional era. On one hand, we are swamped by the global financial meltdown while on the other; we are witnessing a slow but sure revival of the manufacturing and agricultural sectors. It is evident that highly trained and skilled professionals will be needed in vast numbers to enable our country's transition towards industrial and financial self-sufficiency. In this changing scenario, technology will continue to be a major catalyst for enabling the country's transformation .So the demand for quality technical education in India is huge.</p>
+              <p>A keen introspection by the administrative authorities both at the planning and executive level is needed to evolve effective supervisory and regulatory mechanisms so as to reinforce good standards of technical education. Unscrupulous practices compromising on the quality of education need to be checked. All engineering colleges in the state should vie with each other to develop wholesome systems contributing to innovative teaching - learning practices, which will upscale the educational standards in the state and serve the future generation of students in realizing their dreams.
+
+</p>
+              <div class="d-flex align-items-center author">
+                <div class="photo"><img src="assets/img/r.jpeg" alt="" class="img-fluid"></div>
+                <div class="name">
+                  <h3 class="m-0 p-0">Dr.Lavu Rathaiah</h3>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+            <div class="row g-5">
+              <div class="col-xl-7 border-start custom-border">
+                <div class="post-entry-1">
+                  <a href="academics.html"><img src="assets/img/acad.jpeg" alt="" class="img-fluid"></a>
+                  <h2><a href="academics.html"><center>Academics</center></a></h2>
+                </div>
+                <div class="post-entry-1">
+                  <a href="place.html"><img src="assets/img/place.jpeg" alt="" class="img-fluid"></a>
+                  <h2><a href="place.html"><center>Placements</center></a></h2>
+                </div>
+                <div class="post-entry-1">
+                  <a href="achievements.html"><img src="assets/img/ach.jpeg" alt="" class="img-fluid"></a>
+                  <h2><a href="achievements.html"><center>Achievements</center></a></h2>
+                </div>
+              </div>
+              
+
+              <!-- Trending Section -->
+              <div class="col-lg-4">
+
+                <div class="trending">
+                  <h3>Latest Updates</h3>
+                  <ul class="trending-post">
+                    <li>
+                      <a ="single-post.html">
+                        <span class="number">1</span>
+                        <h3>VIIT is a lab training partner with NIELIT for self employment capacity building program</h3>
+                      </a>
+                    </li>
+                    <li>
+                      <a ="single-post.html">
+                        <span class="number">2</span>
+                        <h3>VISTA 2k22-A two day national fest </h3>
+                      </a>
+                    </li>
+                    <li>
+                      <a ="single-post.html">
+                        <span class="number">3</span>
+                        <h3>Doctarates in CSE,ECE,EEE,IT,MECH,ECM,CIVIL,MBA,MCA,MAX and PLACEMENT OFFICER with industrial experience</h3>
+                      </a>
+                    </li>
+                    <li>
+                      <a ="single-post.html">
+                        <span class="number">4</span>
+                        <h3>study in India scholorship by Ministry of Govt. of India </h3>
+                        
+                      </a>
+                    </li>
+                    <li>
+                      <a ="single-post.html">
+                        <span class="number">5</span>
+                        <h3>MSME incubation center invites projects proposals for innovative products and ideas</h3>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div> 
+      </div>
+    </section> 
+    
+    <section class="category-section">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header d-flex justify-content-between align-items-center mb-5">
+          <h2>YUVATARANG <sub>- The youth festival<sub></h2>
+          
+        </div>
+
+        <div class="row">
+          <div class="col-md-10">
+
+            <div class="d-lg-flex post-entry-2">
+              <a ="single-post.html" class="me-4 thumbnail mb-4 mb-lg-0 d-inline-block">
+                <img src="assets/img/yuva.jpeg" alt="" class="img-fluid">
+              </a>
+              <div>
+                <h3>Grand National Youth Fest</h3>
+                <p>"The Vignan Mahotsav" a national level youth festival, organized annually by the Vignan University, provides an unparalleled forum for all the students across the country to test and showcase their intellectual, athletic and artistic powers hidden in them. Students from various regions of India came to the varsity to participate in 72 events organised by the students of VFSTR. A total of 8513 students registered on the first day of the fest. Separate accommodation for boys and girls were also arranged for the students at varsity guest house and hostels that came from far places.</p>
+                <div class="d-flex align-items-center author">
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="post-entry-1 border-bottom">
+                  <a ="single-post.html"><img src="assets/img/cel1.jpg" alt="" class="img-fluid"></a>
+                  
+                  <h2 class="mb-2"><a ="single-post.html">YUVATARANG POSTER LAUNCH SPECIAL</a></h2>
+                  <span class="author mb-3 d-block">CHIEF GUESTS</span>
+                  <p class="mb-4 d-block"><ul> <li>Actor Naga Shaurya ,the Indian Actor ,Producer and Writer</li>
+<li>Actor Krishnudu,the Indian Actor and Active politician</p>
+                </div>
+
+                
+              </div>
+              <div class="col-lg-8">
+                <div class="post-entry-1">
+                  <a ="single-post.html"><img src="assets/img/yuva1.jpg" alt="" class="img-fluid"></a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+             <div class="col-md-2">
+            <div class="post-entry-1 border-bottom">
+              
+              <h2 class="mb-2"><a ="single-post.html">Naga Shaurya unveils "YUVATARANG" poster</a></h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              
+              <h2 class="mb-2"><a ="single-post.html">Over 16,000 budding engineers participated in the festival</a></h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <!--<div class="post-meta"><span class="date"></span> <span class="mx-1">&bullet;</span> <span></span></div>-->
+              <h2 class="mb-2"><a ="single-post.html">Flah mob,dance and skits were enthusiastically performed by students </a></h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+             <!-- <div class="post-meta"><span class="date"></span> <span class="mx-1">&bullet;</span> <span></span></div>-->
+              <h2 class="mb-2"><a ="single-post.html">Around 1000 colleges students have registered for sports and cultural competetions</a></h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+             <!-- <div class="post-meta"><span class="date"></span> <span class="mx-1">&bullet;</span> <span></span></div>-->
+              <h2 class="mb-2"><a ="single-post.html">The festival is dedicated to the "YOUNG ENGINEER'S" of India</a></h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+    </section><!-- End Culture Category Section -->
+
+    
+    <section class="category-section">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header d-flex justify-content-between align-items-center mb-5">
+          <h2>Library</h2>
+          <div><a ="category.html" class="more"></a></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-9 order-md-2">
+
+            <div class="d-lg-flex post-entry-2">
+              <a ="single-post.html" class="me-4 thumbnail d-inline-block mb-4 mb-lg-0">
+                <img src="assets/img/lib.jpeg" alt="" class="img-fluid">
+              </a>
+              <div>
+               <!-- <div class="post-meta"><span class="date">Business</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>-->
+                <h3><a ="single-post.html">The library is well equipped with modern facilities and resources in the form of CD / DVD -ROMs, Video Cassettes. Online Databases, Micro Documents, Video Cassettes, Books, Journals Thesis, Project Reports, Back Volume of Journals, Video Lessons from NPTEL.</p>
+                <div class="d-flex align-items-center author">
+                  <!--<div class="photo"><img src="assets/img/lib1.jpg" alt="" class="img-fluid"></div>
+                  <div class="name">
+                    <h3 class="m-0 p-0">Wade Warren</h3>
+                  </div>-->
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="post-entry-1 border-bottom">
+                  <a ="single-post.html"><img src="assets/img/lib1.jpg" alt="" class="img-fluid"></a>
+                 <!-- <div class="post-meta"><span class="date"></span> <span class="mx-1">&bullet;</span> <span></span></div>-->
+                  
+                </div>
+
+                
+              </div>
+              <div class="col-lg-8">
+                <div class="post-entry-1">
+                  <a ="single-post.html"><img src="assets/img/lib2.jpg" alt="" class="img-fluid"></a>
+                 <!-- <div class="post-meta"><span class="date">Business</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>
+                  <h2 class="mb-2"><a ="single-post.html"></a></h2>
+                  <span class="author mb-3 d-block"></span>
+                  <p class="mb-4 d-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero temporibus repudiandae, inventore pariatur numquam cumque possimus</p>-->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+
+            <div class="post-entry-1 border-bottom">
+             <!-- <div class="post-meta"><span class="date"></span> <span class="mx-1">&bullet;</span> <span></span></div>-->
+              <h2 class="mb-2"><a ="single-post.html">It helps the students and teachers to reach their full potential by providing multifaced, supportive learning and teaching environment.
+</a></h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+            <!--  <div class="post-meta"><span class="date"></span> <span class="mx-1">&bullet;</span> <span></span></div>-->
+              <h2 class="mb-2"><a ="single-post.html">It provides global access to information published worldwide in many disciplines in support of qualitative research and education at the VIIT College of Engineering level.</a></h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+            <!--  <div class="post-meta"><span class="date"></span> <span class="mx-1">&bullet;</span> <span></span></div>-->
+              <h2 class="mb-2"><a ="single-post.html">The first Floor consists of Books and Second floor Magazines and Digital Library.</a></h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <!--<div class="post-meta"><span class="date"></span> <span class="mx-1">&bullet;</span> <span></span></div>-->
+              <h2 class="mb-2"><a ="single-post.html">The main functionaries of the Library are the Circulation, Periodicals, Reference, Acquisition, Technical sections and Digital Library apart from the Administrative and Computers sections.</a></h2>
+              <span class="author mb-3 d-block"></span>
+            </div>
+
+            
+
+            
+          </div>
+        </div>
+      </div>
+    </section><!-- End Business Category Section -->
+
+    <!-- ======= Lifestyle Category Section ======= -->
+    <section class="category-section">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header d-flex justify-content-between align-items-center mb-5">
+          <h2>Campus Diaries</h2>
+         <!-- <div><a href="category.html" class="more">See All Lifestyle</a></div>-->
+        </div>
+
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <div class="post-entry-1 lg">
+              <a href="single-post.html"><img src="assets/img/cd.jpeg" alt="" class="img-fluid"></a>
+              <div class="post-meta"><span class="date">Campus Diaries</span> <span class="mx-1">&bullet;</span> <span></span></div>
+              <h2><a href="single-post.html">Campus diaries of Vignan's Institute of Information Technology in Vizag. Juggling their classes, deadlines, and having fun! That's what college life is ...</a></h2>
+              <p class="mb-4 d-block">Vignan's Institute Of Information Technology  college provides various streams of education. The college provides education in Btech,MBA,Pharmacy. The college has introduced new branches in Btech like AIDS, Computer science and design. Our college provides best education and great memories to the students by conducting many events in the college. </p>
+
+              
+            </div>
+
+          <!--  <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">Lifestyle</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>
+              <h2 class="mb-2"><a href="single-post.html">The Best Homemade Masks for Face (keep the Pimples Away)</a></h2>
+              <span class="author mb-3 d-block">Jenny Wilson</span>
+            </div>-->
+
+          <!--  <div class="post-entry-1">
+              <div class="post-meta"><span class="date">Lifestyle</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>
+              <h2 class="mb-2"><a href="single-post.html">10 Life-Changing Hacks Every Working Mom Should Know</a></h2>
+              <span class="author mb-3 d-block">Jenny Wilson</span>
+            </div>-->
+
+          </div>
+
+          <div class="col-lg-8">
+            <div class="row g-5">
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <a href="single-post.html"><img src="assets/img/cel2.jpeg" alt="" class="img-fluid"></a>
+                  <!--<div class="post-meta"><span class="date">Lifestyle</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>-->
+                  <h2><a href="single-post.html">Sankranthi celebrations held at vignan</a></h2>
+                </div>
+                <div class="post-entry-1">
+                  <a href="single-post.html"><img src="assets/img/cel1.jpg" alt="" class="img-fluid"></a>
+                  <!--<div class="post-meta"><span class="date">Lifestyle</span> <span class="mx-1">&bullet;</span> <span>Jul 17th '22</span></div>-->
+                  <h2><a href="single-post.html">Classical dance performance by MBA students at Yuvatarang</a></h2>
+                </div>
+                <div class="post-entry-1">
+                  <a href="single-post.html"><img src="assets/img/cel3.jpg" alt="" class="img-fluid"></a>
+                  <!--<div class="post-meta"><span class="date">Lifestyle</span> <span class="mx-1">&bullet;</span> <span>Mar 15th '22</span></div>-->
+                  <h2><a href="single-post.html">Dance performance by BTech students</a></h2>
+                </div>
+              </div>
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <a href="single-post.html"><img src="assets/img/ind.jpeg" alt="" class="img-fluid"></a>
+                  <!--<div class="post-meta"><span class="date">Lifestyle</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>-->
+                  <h2><a href="single-post.html">Speech by Charmain sir on Independence day</a></h2>
+                </div>
+                <div class="post-entry-1">
+                  <a href="single-post.html"><img src="assets/img/hero.jpg" alt="" class="img-fluid"></a>
+                 <!-- <div class="post-meta"><span class="date">Lifestyle</span> <span class="mx-1">&bullet;</span> <span>Mar 1st '22</span></div>-->
+                  <h2><a href="single-post.html">Movie promotions at vignan college</a></h2>
+                </div>
+                <div class="post-entry-1">
+                  <a href="single-post.html"><img src="assets/img/ee.jpeg" alt="" class="img-fluid"></a>
+                  <!--<div class="post-meta"><span class="date">Lifestyle</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>-->
+                  <h2><a href="single-post.html">VISTA 2k22 poster launch</a></h2>
+                </div>
+              </div>
+              <div class="col-lg-4">
+
+                <div class="post-entry-1 border-bottom">
+                  <!--<div class="post-meta"><span class="date">Lifestyle</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>-->
+                  <h2 class="mb-2"><a href="single-post.html">Encouraging students to participate in sports</a></h2>
+                  <span class="author mb-3 d-block"></span>
+                </div>
+
+                <div class="post-entry-1 border-bottom">
+                 <!-- <div class="post-meta"><span class="date">Lifestyle</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>-->
+                  <h2 class="mb-2"><a href="single-post.html">Celebrating every festival in our college in traditional way</a></h2>
+                  <span class="author mb-3 d-block"></span>
+                </div>
+
+                <div class="post-entry-1 border-bottom">
+                  <!--<div class="post-meta"><span class="date">Lifestyle</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>-->
+                  <h2 class="mb-2"><a href="single-post.html">Allowing movie promotions and celebraties in our college</a></h2>
+                  <span class="author mb-3 d-block"></span>
+                </div>
+
+                <div class="post-entry-1 border-bottom">
+                 <!-- <div class="post-meta"><span class="date">Lifestyle</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>-->
+                  <h2 class="mb-2"><a href="single-post.html">Creating space for interaction between company's and students </a></h2>
+                  <span class="author mb-3 d-block"></span>
+                </div>
+
+               <!-- <div class="post-entry-1 border-bottom">
+                  <div class="post-meta"><span class="date">Lifestyle</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>
+                  <h2 class="mb-2"><a href="single-post.html">The Best Homemade Masks for Face (keep the Pimples Away)</a></h2>
+                  <span class="author mb-3 d-block">Jenny Wilson</span>
+                </div>-->
+
+                <!--<div class="post-entry-1 border-bottom">
+                  <div class="post-meta"><span class="date">Lifestyle</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>
+                  <h2 class="mb-2"><a href="single-post.html">10 Life-Changing Hacks Every Working Mom Should Know</a></h2>
+                  <span class="author mb-3 d-block">Jenny Wilson</span>
+                </div>-->
+
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- End .row -->
+      </div>
+    </section><!-- End Lifestyle Category Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content">
+      <div class="container">
+
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <h3 class="footer-heading">Contact Details</h3>
+              <p>Address: Besides VSEZ Vadlapudi Duvvada,
+                Gajuwaka, Visakhapatnam,
+                 Andhra Pradesh</p>
+              <p>Telephones: 089127 55222</p>
+              <p>E-mail: vignaniit@yahoo.com</p>
+            <!--<p><a href="about.html" class="footer-link-more">Learn More</a></p>-->
+          </div>
+       <!--   <div class="col-6 col-lg-2">
+            <h3 class="footer-heading">Navigation</h3>
+            <ul class="footer-links list-unstyled">
+              <li><a href="index.html"><i class="bi bi-chevron-right"></i> Home</a></li>
+              <li><a href="index.html"><i class="bi bi-chevron-right"></i> Blog</a></li>
+              <li><a href="category.html"><i class="bi bi-chevron-right"></i> Categories</a></li>
+              <li><a href="single-post.html"><i class="bi bi-chevron-right"></i> Single Post</a></li>
+              <li><a href="about.html"><i class="bi bi-chevron-right"></i> About us</a></li>
+              <li><a href="contact.html"><i class="bi bi-chevron-right"></i> Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h3 class="footer-heading">Categories</h3>
+            <ul class="footer-links list-unstyled">
+              <li><a href="category.html"><i class="bi bi-chevron-right"></i> Business</a></li>
+              <li><a href="category.html"><i class="bi bi-chevron-right"></i> Culture</a></li>
+              <li><a href="category.html"><i class="bi bi-chevron-right"></i> Sport</a></li>
+              <li><a href="category.html"><i class="bi bi-chevron-right"></i> Food</a></li>
+              <li><a href="category.html"><i class="bi bi-chevron-right"></i> Politics</a></li>
+              <li><a href="category.html"><i class="bi bi-chevron-right"></i> Celebrity</a></li>
+              <li><a href="category.html"><i class="bi bi-chevron-right"></i> Startups</a></li>
+              <li><a href="category.html"><i class="bi bi-chevron-right"></i> Travel</a></li>
+
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <h3 class="footer-heading">Recent Posts</h3>
+
+            <ul class="footer-links footer-blog-entry list-unstyled">
+              <li>
+                <a href="single-post.html" class="d-flex align-items-center">
+                  <img src="assets/img/post-sq-1.jpg" alt="" class="img-fluid me-3">
+                  <div>
+                    <div class="post-meta d-block"><span class="date">Culture</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>
+                    <span>5 Great Startup Tips for Female Founders</span>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="single-post.html" class="d-flex align-items-center">
+                  <img src="assets/img/post-sq-2.jpg" alt="" class="img-fluid me-3">
+                  <div>
+                    <div class="post-meta d-block"><span class="date">Culture</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>
+                    <span>What is the son of Football Coach John Gruden, Deuce Gruden doing Now?</span>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="single-post.html" class="d-flex align-items-center">
+                  <img src="assets/img/post-sq-3.jpg" alt="" class="img-fluid me-3">
+                  <div>
+                    <div class="post-meta d-block"><span class="date">Culture</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>
+                    <span>Life Insurance And Pregnancy: A Working Mom’s Guide</span>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="single-post.html" class="d-flex align-items-center">
+                  <img src="assets/img/post-sq-4.jpg" alt="" class="img-fluid me-3">
+                  <div>
+                    <div class="post-meta d-block"><span class="date">Culture</span> <span class="mx-1">&bullet;</span> <span>Jul 5th '22</span></div>
+                    <span>How to Avoid Distraction and Stay Focused During Video Calls?</span>
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>-->
+
+    <div class="footer-legal">
+      <div class="container">
+
+      <!--  <div class="row justify-content-between">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <div class="copyright">
+              © Copyright <strong><span>ZenBlog</span></strong>. All Rights Reserved
+            </div>-->
+
+            <div class="credits">
+              <!-- All the links in the footer should remain intact. -->
+              <!-- You can delete the links only if you purchased the pro version. -->
+              <!-- Licensing information: https://bootstrapmade.com/license/ -->
+              <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+             <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>-->
+            </div>
+
+          </div>
+
+          <div class="col-md-6">
+            <div class="social-links mb-3 mb-lg-0 text-center text-md-end">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
